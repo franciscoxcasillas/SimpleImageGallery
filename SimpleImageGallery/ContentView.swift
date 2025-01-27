@@ -26,6 +26,7 @@ struct ContentView: View {
                             .scaledToFit()
                     } placeholder: {
                         ProgressView()
+                        Text("Wait")
                     }
                     .frame(width: 200, height: 200)
             Image("Mountain")
